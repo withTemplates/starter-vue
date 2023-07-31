@@ -1,8 +1,12 @@
 {
-  "name": "web-reconstruction",
+  "name": "starter-template",
   "type": "module",
   "version": "0.0.0",
   "private": true,
+  "author": {
+    "name": "Konv Suu",
+    "email": "hi@kovsu.com"
+  },
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
