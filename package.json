@@ -20,7 +20,7 @@
     "@iconify-json/carbon": "^1.1.18",
     "@kovsu/eslint-config-vue": "^0.1.0",
     "@types/node": "^20.4.2",
-    "@unocss/reset": "^0.53.5",
+    "@unocss/reset": "^0.54.0",
     "@vitejs/plugin-vue": "^4.2.3",
     "eslint": "^8.45.0",
     "typescript": "^5.0.2",
