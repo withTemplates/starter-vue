@@ -1,5 +1,0 @@
-{
-  "extends": [
-    "@kovsu/eslint-config-vue"
-  ]
-}
