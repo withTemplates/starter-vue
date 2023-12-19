@@ -1,8 +1,8 @@
-import { defineConfig, presetAttributify, presetIcons, presetUno, presetWebFonts } from "unocss";
+import { defineConfig, presetAttributify, presetIcons, presetUno, presetWebFonts } from 'unocss'
 
 export default defineConfig({
   rules: [
-    [/^m-(\d+)$/, ([, d]) => ({ margin: `${parseInt(d) / 4}rem` })],
+    [/^m-(\d+)$/, ([, d]) => ({ margin: `${Number.parseInt(d) / 4}rem` })],
   ],
   shortcuts: {
   },
@@ -19,16 +19,16 @@ export default defineConfig({
       scale: 1.2,
       warn: true,
       extraProperties: {
-        "display": "inline-block",
-        "vertical-align": "middle",
+        'display': 'inline-block',
+        'vertical-align': 'middle',
       },
     }),
     presetWebFonts({
-      provider: "google",
+      provider: 'google',
       fonts: {
-        sans: "Roboto",
-        mono: ["Fira Code", "Fira Mono:400,700"],
+        sans: 'Roboto',
+        mono: ['Fira Code', 'Fira Mono:400,700'],
       },
     }),
   ],
-});
+})
